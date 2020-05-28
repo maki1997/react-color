@@ -82,13 +82,13 @@ export const SketchFields = ({ onChange, rgb, hsl, hex, disableAlpha }) => {
 
   return (
     <div style={ styles.fields } className="flexbox-fix">
-      <div style={ styles.double }>
+      {/* <div style={ styles.double }>
         <EditableInput
           style={{ input: styles.input, label: styles.label }}
           label="hex"
           value={ hex.replace('#', '') }
           onChange={ handleChange }
-        />
+        /> */}
       </div>
       <div style={ styles.single }>
         <EditableInput
